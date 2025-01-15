@@ -1,3 +1,10 @@
 git add .
 git commit -m "js"
- git push -u origin master
+git push -u origin master
+
+// what is closer
+//callback function higher oder function
+//diff. let ,var,const
+//arrow function and taddtional function 
+//what is JavaScript Anonymous Functions 
+//diff b/w null and undefine
