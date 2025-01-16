@@ -1,21 +1,21 @@
-// let st
+let st
 
 
-// function start(){
-//     let head=document.querySelector('#head')
-//     let num =0
-//     st=setInterval(()=>{head.innerHTML=num++},1000) //callback function
+function start(){
+    let head=document.querySelector('#head')
+    let num =0
+    st=setInterval(()=>{head.innerHTML=num++},1000) //callback function
 
 
-// }
-// function stop(){
-//     clearInterval(st)
-// }
+}
+function stop(){
+    clearInterval(st)
+}
 
-// setTimeout(()=>alert("setttiout call"), 2000);
+setTimeout(()=>alert("setttiout call"), 2000);
 
-// let btn1=document.querySelector('.btn1')
-// btn1.addEventListener('click',function(){alert("clicked")})
+let btn1=document.querySelector('.btn1')
+btn1.addEventListener('click',function(){alert("clicked")})
 
 
 
