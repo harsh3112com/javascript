@@ -8,3 +8,6 @@ git push -u origin master
 //arrow function and taddtional function 
 //what is JavaScript Anonymous Functions 
 //diff b/w null and undefine
+
+
+josn-server --watch database.josn server commend to server

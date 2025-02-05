@@ -1,0 +1,32 @@
+{
+
+    "student":[
+        {
+            "name":"Atul",
+            "age":90,
+            "contact":25641,
+            "city":"Bhopal"
+        },
+        {
+            "name":"Amit",
+            "age":60,
+            "contact":25641,
+            "city":"Bhopal"
+        },
+        {
+            "name":"Aman",
+            "age":90,
+            "contact":25641,
+            "city":"Bhopal"
+        },
+        {
+            "name":"Rahul",
+            "age":40,
+            "contact":2565641,
+            "city":"Sagar"
+        }
+        
+
+        
+    ]
+}
