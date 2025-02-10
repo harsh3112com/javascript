@@ -10,4 +10,4 @@ git push -u origin master
 //diff b/w null and undefine
 
 
-josn-server --watch database.josn server commend to server
+json-server --watch database.josn server commend to server

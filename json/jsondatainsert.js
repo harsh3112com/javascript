@@ -1,11 +1,3 @@
-// async function apifetch() {
-//     let data = await fetch ("http://localhost:3000/student")
-//     let final_data =await data.json()
-// console.log(final_data);
-
-// }
-// apifetch()
-
 async function apifetch() {
     let data = await fetch ("http://localhost:3000/student")
     let final_data =await data.json()
@@ -33,6 +25,21 @@ function mydelete(id){
   .then(res=>alert("Delete..!!"))
 }
 
+function savadata(){
+let frmdata= {
+    name:document.querySelector('#name').value,
+    age:document.querySelector('#age').value,
+    contact:document.querySelector('#contact').value,
+    city:document.querySelector('#city').value  
 
+}
 
-
+fetch('http://localhost:3000/student',{
+    method:"POST",
+    headers:{
+        'content-type':'application/json'
+    },
+    body:JSON.stringify(frmdata)
+})
+ .then(r=>alert("Data inserted successfully"))
+}

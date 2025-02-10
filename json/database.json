@@ -1,32 +1,25 @@
 {
-
-    "student":[
-        {
-            "name":"Atul",
-            "age":90,
-            "contact":25641,
-            "city":"Bhopal"
-        },
-        {
-            "name":"Amit",
-            "age":60,
-            "contact":25641,
-            "city":"Bhopal"
-        },
-        {
-            "name":"Aman",
-            "age":90,
-            "contact":25641,
-            "city":"Bhopal"
-        },
-        {
-            "name":"Rahul",
-            "age":40,
-            "contact":2565641,
-            "city":"Sagar"
-        }
-        
-
-        
-    ]
+  "student": [
+    {
+      "name": "harsh",
+      "age": 22,
+      "contact": 41555,
+      "city": "Bhopal",
+      "id": "4be9"
+    },
+    {
+      "name": "harsh",
+      "age": 22,
+      "contact": 41555,
+      "city": "Bhopal",
+      "id": "89cb"
+    },
+    {
+      "name": "harsh",
+      "age": 22,
+      "contact": 41555,
+      "city": "Bhopal",
+      "id": "f127"
+    }
+  ]
 }
