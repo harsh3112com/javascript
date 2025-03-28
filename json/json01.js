@@ -6,6 +6,7 @@
 // }
 // apifetch()
 
+
 async function apifetch() {
     let data = await fetch ("http://localhost:3000/student")
     let final_data =await data.json()

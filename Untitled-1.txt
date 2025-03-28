@@ -11,3 +11,11 @@ git push -u origin master
 
 
 json-server --watch database.josn server commend to server
+
+npm create vite@latest 
+
+npx
+create-vite 
+secondclass 
+react
+JavaScript
