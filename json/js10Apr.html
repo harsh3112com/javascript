@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function countOccurrences(arr) {
+            let countMap = {};
+            for (let item of arr) {
+              countMap[item] = (countMap[item] || 0) + 1;
+            }
+            return countMap;
+          }
+          
+          console.log(countOccurrences([1, 2, 2, 3, 3, 3]));
+          // Output: { '1': 1, '2': 2, '3': 3 }
+          
+    </script>
+</body>
+</html>
