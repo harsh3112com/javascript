@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const users = [
+  { name: "Alice", age: 17 },
+  { name: "Bob", age: 22 },
+  { name: "Charlie", age: 17 },
+  { name: "Dave", age: 22 }
+];
+
+const grouped = users.reduce((acc, user) => {
+  if (!acc[user.age]) acc[user.age] = [];
+  acc[user.age].push(user.name);
+  return acc;
+}, {});
+
+console.log(grouped);
+/*
+{
+  17: ["Alice", "Charlie"],
+  22: ["Bob", "Dave"]
+}
+*/
+
+    </script>
+</body>
+</html>
